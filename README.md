@@ -1,4 +1,4 @@
-# Temporizador (Em progresso)
+# Temporizador 
  
 ![preview](./.github/preview.png)
 

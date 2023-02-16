@@ -28,15 +28,15 @@ export default function({controls, timer, sound}) {
   })
 
   btnSoundOff.addEventListener("click", function () {
-    btnSoundOn.classList.add("hide")
-    btnSoundOff.classList.remove("hide")
-    sound.bgAudio.pause()
-  })
-
-  btnSoundOn.addEventListener("click", function () {
     btnSoundOff.classList.add("hide")
     btnSoundOn.classList.remove("hide")
     sound.bgAudio.play()
+  })
+  
+  btnSoundOn.addEventListener("click", function () {
+    btnSoundOn.classList.add("hide")
+    btnSoundOff.classList.remove("hide")
+    sound.bgAudio.pause()
   })
 
   btnSet.addEventListener("click", function () {
